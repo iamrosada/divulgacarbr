@@ -1,4 +1,4 @@
-import {createGlobalStyle} from 'styled-components'
+import styled, {createGlobalStyle} from 'styled-components'
 
 
 export default createGlobalStyle`
@@ -10,21 +10,39 @@ export default createGlobalStyle`
    box-sizing:border-box;
 
  }
- body{
-   background:#FFF;
+ html,body,#root {
+   background:#e5e5e5;
    -webkit-font-smoothing: antialiased;
+   height:100%;
+   width:100%;
+   
+    
 
  }
  body, input, button{
    font:14px Roboto, sans-serif;
  }
-  #root{
-    max-width:1020px;
-    margin: 0 auto;
-    padding: 0 20px 50px;
+
+#root{
+  --color-header:#283e4a;
+  --color-divulgacar:#0077b5;
+  --color-input:#e1e9ee;
+  --color-icons:#c7d1d8;
+  --color-white:#fff;
+  --color-black:rgba(0,0,0,.9);
+  --color-gray:rgba(0,0,0,.15);
+  --color-menu: #0071ce;
+  --color-border-bottom: #ebecef;
+  --color-border-top: #ebecef;
+  --color-text:#66676c;
+  --color-input-desable: #ebecef;
+  
+
+   
   }
 
  button{
    cursor:pointer;
  }
 `;
+ 

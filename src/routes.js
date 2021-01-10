@@ -1,8 +1,8 @@
 import React from 'react'
 import {Switch, Route} from 'react-router-dom'
 
-import Cart from './pages/Cart/index'
-import Home from './pages/Home/index'
+import Cart from './components/Cart/index'
+import Home from './components/Home/index'
 export default function Routes(){
   return(
       <Switch>
