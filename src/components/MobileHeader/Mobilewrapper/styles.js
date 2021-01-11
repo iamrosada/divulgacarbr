@@ -3,9 +3,9 @@ export const Container = styled.div``;
 
 export const Wrapper = styled.header`
  background: var(--color-white);
- width:100%;
+ //width:100%;
  margin-top:95px;
- height:100%;
+// height:100%;
 
 
 
@@ -69,9 +69,11 @@ export const PrecoTitle = styled.span`
 
 `;
 export const De = styled.input`
- 
-    max-width:156px;
+    //position: relative;
+    width: 100%;
+   // max-width:156px;
     min-height: 44px;
+
     height: 44px;
     padding: 0 44px 0 16px;
     border:none;
@@ -83,8 +85,11 @@ export const De = styled.input`
     
 `;
 export const Ate = styled.input`
-    margin-left:10px;
-    max-width:156px;
+    //position: relative;
+    width: 100%;
+   // max-width:156px;
+   margin-left:10px;
+
     min-height: 44px;
     height: 44px;
     padding: 0 44px 0 16px;

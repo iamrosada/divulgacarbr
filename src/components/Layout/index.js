@@ -8,6 +8,7 @@ import Mobilewrapper from '../MobileHeader/Mobilewrapper';
 import MobileOportun from '../MobileHeader/MobileOportun/index';
 import MobileDestaque from '../MobileHeader/MobileDestaque';
 import MobileProduct from '../MobileHeader/MobileProduct';
+import MobileCountProficionalButton from '../MobileHeader/MobileCountProficionalButton';
 
 
 function Layout() {
@@ -20,6 +21,7 @@ function Layout() {
             <MobileOportun/>
             <MobileDestaque/>
             <MobileProduct/>
+            <MobileCountProficionalButton/>
 
         </ContentHeaderMobile>
            

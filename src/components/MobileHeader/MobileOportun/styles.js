@@ -53,9 +53,14 @@ export const OportunidadeDoDia  = styled.h2`
     font-weight: 600;
    
     margin-top:-30px;
-    width:290px;
+    //width:290px;
     margin-left:3px;
     
+   
+    width:100%;
+
+    
+   
     
 
 `;
