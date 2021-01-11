@@ -12,22 +12,20 @@ Moeda
 
 } from './styles';
 
-const Fotos =[
-  { id:"1",
-    image:"https://images.unsplash.com/photo-1564694202149-86082093bcd6?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjd8fGNhcnJvc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+
  
-  }
+  
  
  
  
  
-  ]
 function MobileOportun() {
   return (
 
         <Container>
         
-          <ImagemOportu />
+
+          <ImagemOportu src="https://images.unsplash.com/photo-1576289668060-47fd82c89bb6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"/>
           <OportunidadeDoDia>
             Oportunidade do dia
           </OportunidadeDoDia>
@@ -37,10 +35,16 @@ function MobileOportun() {
           </Marca>
           <Caracteristicas>
             <li>2020</li>
-            <li>3 549 km</li>
+             .
+            <li>3549</li>
+            <li>km</li>
+            .
             <li>Gasolina</li>
+            .
             <li>Janeiro</li>
-            <li>109 cv</li>
+            .
+            <li>109</li>
+            <li>cv</li>
           </Caracteristicas>
           <ValorDoCarro>
             28 990 

@@ -5,6 +5,9 @@ export const Container = styled.div`
   width: 100%;
   height:100%;
   display:flex;
+  flex-direction:column;
+
+
   
 
 /* quando esta no computador */
@@ -17,4 +20,10 @@ export const Container = styled.div`
       
     }
   }
+`;
+
+export const ContentHeaderMobile = styled.div`
+  display:flex;
+  flex-direction:column;
+  background:var(--color-white);
 `;

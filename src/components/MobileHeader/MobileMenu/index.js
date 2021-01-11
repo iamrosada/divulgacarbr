@@ -1,10 +1,11 @@
 import React from 'react';
 
- import { Content, IconImage } from './styles';
+ import { Container,Content, IconImage } from './styles';
  import carro  from '../../../styles/Icons/carro.svg'
 function MobileMenu() {
   return(  
-            <Content>
+        <Container>
+          <Content>
               <ul className="active">
                 <li  >
                   <IconImage src={carro}/>
@@ -42,6 +43,9 @@ function MobileMenu() {
 
             </Content>
 
+
+        </Container>
+                
 
   );
 }

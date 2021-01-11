@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 
+export const  Container = styled.div`
+display:flex;
 
+`;
 export const Content = styled.div`
   background:var(--color-white);
    position:fixed;
@@ -10,12 +13,12 @@ export const Content = styled.div`
    border-top:1px solid var(--color-border-top);
    display:flex;
    padding:0 5px;
-  
+   overflow-x: auto;
   /*Parte do scroll horizontal x */
-   overflow: auto;
-   white-space: nowrap;
+ 
+ 
 
-  flex-wrap: nowrap;
+   
   //overflow-y: hidden;
 
 
