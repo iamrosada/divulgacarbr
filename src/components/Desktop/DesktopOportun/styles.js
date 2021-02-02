@@ -4,36 +4,46 @@ export const Container = styled.div`
   display:flex;
   flex-direction:column;
   
-  margin:18px;
+  //margin:18px;
   flex-basis: 243px;
- // height:auto;
- //background:var(--color-header) ;
+   height:auto;
+  
 
 
 `;
 
 export const ImagemOportu  = styled.img`
-  
+   /*vertical-align: baseline;
     
-    max-height: 208px;
+    margin:0;
+    padding:0;
+    height: 350px;
+    min-width: 320px;
+    width:100%;
+    display: flex;
+   
+    border-radius: 4px;
+    margin-bottom:10px;*/
+    max-height: 508px;
+    //max-width:908px;
     -webkit-flex-basis: 208px;
     -ms-flex-preferred-size: 208px;
     flex-basis: 208px;
-    width: 100%;
+    //width: 100%;
     height: auto;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
+    border-radius: 4px;
     object-fit: cover;
     flex: 2 1;
     margin-bottom: 20px;
-
+    
+   
    
 
-   // background:var(--color-header) ;
+  
 `;
 
 export const OportunidadeDoDia  = styled.h2`
-   
+    display:flex;
     
     padding: 8px 16px;
     border-radius: 4px;
@@ -41,18 +51,26 @@ export const OportunidadeDoDia  = styled.h2`
     color:var(--color-white);
     font-size: 1.375rem;
     font-weight: 600;
-    height:100px;
+   
     margin-top:-30px;
-    
-    margin-left:3px;
-    margin-bottom:20px;
-    
+    //width:290px;
+    margin-left:6px;
+    max-width:400px;
+   
+   // width:100%;
 
+    
+   
+    
 
 `;
 
  export const Marca  = styled.div`
+  display:flex;
+  margin-bottom: 4px;
   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   font-size: 16px;
   line-height: 20px;
   font-weight: 600;
@@ -63,7 +81,7 @@ export const OportunidadeDoDia  = styled.h2`
 export const Caracteristicas  = styled.ul`
  display:flex;
  padding:4px 0;
-margin-top:5px;
+
  
  
  >li{
@@ -81,12 +99,10 @@ export const ValorDoCarro  = styled.div`
     letter-spacing: normal;
     font-style: normal;
      margin:8px;
-     margin-top:25px;
 `;
 
 export const Moeda  = styled.sup`
     padding-left: 4px;
     font-size: 10px;
     line-height: 20px;
-   
 `;

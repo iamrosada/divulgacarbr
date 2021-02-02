@@ -1,28 +1,34 @@
 import styled from 'styled-components';
 
-/*export const Container = styled.div`
-  
-  max-width: 1050px;
-  margin: 0 auto;
-  display:grid;
-  grid-template-columns: repeat(5,1fr);
-  grid-gap:20px;
-  list-style: none;
-  
-`;
-*/
 export const Container = styled.div`
   display:flex;
+  background:var(--color-white);
+  margin-top:200px;
   flex-direction:column;
-  margin:18px;
+  max-width: 1299px;
+  //margin: 0 auto;
+  padding: 20px;
+  margin-top:18px;
+  ///height:100%;
+  box-shadow: 0 8px 20px 0 rgba(20,35,85,0.1);
+  border-radius:4px;
+  margin-bottom:30px;
 `;
+
+export const CarrosEmPromocao = styled.h2`
+margin-bottom:10px;
+font-size:25px;
+ //font-weight:400;
+
+`;
+
 
 
 export const Section = styled.div`
   display:flex;
-  /*Parte do scroll horizontal x */
+ 
   overflow-x: auto;
-  
+
 `;
 export const SectionProduct = styled.div`
   display:flex;
@@ -34,7 +40,6 @@ export const SectionProduct = styled.div`
   //flex-shrink: 0;
   margin-left: 16px;
   margin-bottom: 16px;
-  width:330px;
 
 
 `;
@@ -85,13 +90,13 @@ export const Caracteristicas  = styled.ul`
  display:flex;
  padding:4px 0;
 
+ 
+ 
  >li{
    display:flex;
    text-decoration:none;
    padding:4px;
    margin-left:6px;
-   
-  
  }
 `;
 

@@ -4,17 +4,20 @@ import {BrowserRouter, Route} from 'react-router-dom'
 
 import Routes from './routes'
 import Layout from './components/Layout/index';
+import HeaderDesktop from './components/Desktop/HeaderDesktop';
+import DesktopCountProficionalButton from './components/Desktop/DesktopCountProficionalButton';
 
 function App() {
   return (
    
      <BrowserRouter>
-     <Layout/>
-
+      {/* <Layout/> */}
+      <HeaderDesktop/>
+   
 
       <Routes/>
-      
       <GlobalStyle/>
+      <DesktopCountProficionalButton/>
      </BrowserRouter>
      
   );

@@ -36,7 +36,8 @@ export default createGlobalStyle`
   --color-border-top: #ebecef;
   --color-text:#66676c;
   --color-input-desable: #ebecef;
-  
+  --color-letter-desktop:#838488;  
+  --color-sinza:#808080;
 
    
   }

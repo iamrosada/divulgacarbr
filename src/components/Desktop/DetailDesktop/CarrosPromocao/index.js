@@ -1,7 +1,7 @@
 import React from 'react';
 
-import 
-{ Container,
+import { 
+  Container,
   Section,
   AnunciDestaque,
   VerTudo,
@@ -12,57 +12,54 @@ import
   Moeda,
   SectionProduct
 } from './styles';
- 
-function MobileDestaque() {
+
+function CarrosPromocao() {
   return (
-        <Container>
-           <AnunciDestaque>
-               Anúncios em Destaque
-               <VerTudo>
-                 Ver Todos
-               </VerTudo>
-              </AnunciDestaque>
+    <Container>
+    <AnunciDestaque>
+        Anúncios de carros em Destaque
+        <VerTudo>
+          Ver Todos
+        </VerTudo>
+       </AnunciDestaque>
 
-            <Section>
-             
-            { ProductDestaque.map((product) =>
-             <SectionProduct key={product.id}>
-             <ImagemProduct src={product.image}/>
-               <Marca>
-              {product.marca} 
-             </Marca>
-             <Caracteristicas>
-               <li>{product.caracteristicas.ano}</li>
-               .
-               <li>{product.caracteristicas.km}</li>
-               <li>km</li>
-               .
-               <li>{product.caracteristicas.combustivel}</li>
-               .
-               <li>{product.caracteristicas.cv}</li>
-               <li>cv</li>
-             </Caracteristicas>
-             <ValorDoCarro>
-              {product.valorDoCarro}
-               <Moeda>
-               EUR
-               </Moeda>
-           </ValorDoCarro>
-
-
-       </SectionProduct>
-
-             
-             )}
- 
-            
-          </Section>
-
-        </Container>
+     <Section>
+      
+     { ProductDestaque.map((product) =>
+      <SectionProduct key={product.id}>
+      <ImagemProduct src={product.image}/>
+        <Marca>
+       {product.marca} 
+      </Marca>
+      <Caracteristicas>
+        <li>{product.caracteristicas.ano}</li>
+        .
+        <li>{product.caracteristicas.km}</li>
+        <li>km</li>
+        .
+        <li>{product.caracteristicas.combustivel}</li>
+        .
+        <li>{product.caracteristicas.cv}</li>
+        <li>cv</li>
+      </Caracteristicas>
+      <ValorDoCarro>
+       {product.valorDoCarro}
+        <Moeda>
+        EUR
+        </Moeda>
+    </ValorDoCarro>
 
 
+</SectionProduct>
+
+      
+      )}
+
+     
+   </Section>
+
+ </Container>
   );
-
 }
 
 
@@ -120,7 +117,7 @@ const ProductDestaque = [
   },
   valorDoCarro:"20 000"
   },
+  
 
  ]
-
-export default MobileDestaque;
+export default CarrosPromocao;

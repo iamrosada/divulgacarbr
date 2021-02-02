@@ -1,14 +1,15 @@
 import React from 'react';
 import MobileHeader from '../MobileHeader'
 
-import LeftColumn from '../LeftColumn/index';
-import RightColumn from '../RightColumn/index';
-import {ContentHeaderMobile,Container}from './styles'
+
+import {ContentHeaderMobile,Container,Main}from './styles'
 import Mobilewrapper from '../MobileHeader/Mobilewrapper';
 import MobileOportun from '../MobileHeader/MobileOportun/index';
 import MobileDestaque from '../MobileHeader/MobileDestaque';
 import MobileProduct from '../MobileHeader/MobileProduct';
-import MobileCountProficionalButton from '../MobileHeader/MobileCountProficionalButton';
+//import MobileCountProficionalButton from '../MobileHeader/MobileCountProficionalButton';
+import HeaderDesktop from '../Desktop/HeaderDesktop';
+import Desktop from '../Desktop/index';
 
 
 function Layout() {
@@ -16,25 +17,24 @@ function Layout() {
         <Container>
 
         <ContentHeaderMobile>
+        
             <MobileHeader/>
             <Mobilewrapper/>
             <MobileOportun/>
-            <MobileDestaque/>
+            <MobileDestaque/> 
             <MobileProduct/>
-            <MobileCountProficionalButton/>
+            
+           
 
         </ContentHeaderMobile>
            
 
-       
-          
-        {/*<MobileOportun/> */} 
          
-          <main>
-            <RightColumn/>
-            <LeftColumn/>
-
-          </main>
+          <Main>
+          <HeaderDesktop/>
+         <Desktop/>
+            
+          </Main>
 
         </Container>
 
