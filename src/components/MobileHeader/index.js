@@ -1,33 +1,25 @@
-import React from 'react';
-import MobileMenu from './MobileMenu/index';
+import React from "react";
+import MobileMenu from "./MobileMenu/index";
 
-
-import { Container, MenuIcon ,LogotoTipo,FiPlusIcon,Header} from './styles';
+import { Container, MenuIcon, LogotoTipo, FiPlusIcon, Header } from "./styles";
 
 function MobileHeader() {
   return (
     <Header>
-          <Container>
-            <button>
-              <MenuIcon/>
-            </button>
-            
-            <LogotoTipo>
-              Divulgacar
-            </LogotoTipo>
-            
-              <button id="vender">
-                <FiPlusIcon/>
-                 Vender Veiculo
-              </button>
-          
+      <Container>
+        <button>
+          <MenuIcon />
+        </button>
 
+        <LogotoTipo>Divulgacar</LogotoTipo>
 
-          </Container>
-          <MobileMenu/>
-         
-      </Header>
-
+        <button id="vender">
+          <FiPlusIcon />
+          Vender Veiculo
+        </button>
+      </Container>
+      <MobileMenu />
+    </Header>
   );
 }
 

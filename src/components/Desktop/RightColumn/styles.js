@@ -174,7 +174,7 @@ export const AnunciosButton = styled.button`
 `;
 export const PesquisaAvancada = styled.div`
   display: flex;
-  margin: 2px 18px;
+  margin: 8px 18px;
   justify-content: center;
   align-items: center;
 `;

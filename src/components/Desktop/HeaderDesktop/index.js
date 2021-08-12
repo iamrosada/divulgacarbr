@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import {
   Container,
   LogMarca,
@@ -14,11 +14,17 @@ function HeaderDesktop() {
   return (
     <Header>
       <Container>
-        <LogMarca>DIVULGARCAR</LogMarca>
+        <Link to="/">
+          <LogMarca>DIVULGARCAR</LogMarca>
+        </Link>
 
         <LeftNav>
-          <ComprarButtom>Comprar</ComprarButtom>
-
+          <Link to="/mecanic">
+            <VenderButtom>Mecânico</VenderButtom>
+          </Link>
+          <Link to="/mercado">
+            <ComprarButtom>Comprar</ComprarButtom>
+          </Link>
           <VenderButtom>Vender</VenderButtom>
 
           <AvatarButtom>Login | Criar Conta</AvatarButtom>

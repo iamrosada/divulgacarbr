@@ -21,7 +21,9 @@ export default createGlobalStyle`
  body, input, button{
    font:14px Roboto, sans-serif;
  }
-
+a{
+  text-decoration: none;
+}
 #root{
   --color-header:#283e4a;
   --color-divulgacar:#0077b5;
