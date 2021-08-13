@@ -27,7 +27,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 $ git clone <https://github.com/iamrosada/divulgarcarbr>
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd heroes_challenge
+$ cd divulgarcarbr
 
 
 # Instale as dependências
