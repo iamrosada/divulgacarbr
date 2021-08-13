@@ -1,5 +1,7 @@
 <h1 align="center">DIVULGAR CAR</h1>
 
+<p> <img align="center" alt="gif" src="https://github.com/iamrosada/divulgacarbr/blob/main/home.gif" /> </p>
+
 ### 🎲 COMO O DIVULGAR CAR TRABALHA! [🤔](https://static.xx.fbcdn.net/images/emoji.php/v9/t34/1/16/1f914.png)
 
 DIVULGAR CAR - É uma aplicação que estou a construir com o objectivo de vender e carros e viaturas pesadas e ligeiras, e também mecânicos, podem fazer a publicidade de seus centros nesta plataforma, e o cliente que pretende entrar em contacto com o vendedor vai ser por intermédio do whatsApp
